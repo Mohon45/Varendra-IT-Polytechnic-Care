@@ -1,0 +1,39 @@
+.footer {
+  background-color: #000000;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-description {
+  width: 500px;
+}
+.social-icon i {
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.social-icon i:hover {
+  color: #0bc560;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-us {
+  margin-top: 30px;
+}
+.about-us h1 {
+  font-weight: bold;
+  color: #0bc560;
+}
+.about-us ul li {
+  list-style-type: none;
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+.about-us ul li:hover {
+  color: #0bc560;
+  cursor: pointer;
+}
+.footer-intro {
+  color: #0bc560;
+}

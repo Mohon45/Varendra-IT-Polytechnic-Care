@@ -1,0 +1,42 @@
+.home-header {
+  /* background-image: url("../Images/banner2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 90vh; */
+  background-color: #f5f5f5;
+}
+.title-section {
+  padding-top: 80px;
+}
+.title-section h1 {
+  font-size: 70px;
+  color: #0bc560;
+  font-weight: bold;
+}
+.title-section h1 span {
+  color: #ffc107;
+}
+.title-section p {
+  width: 700px;
+  color: #0bc560;
+  font-size: 20px;
+  /* font-weight: bold; */
+}
+
+.student-rating {
+  display: flex;
+  justify-content: center;
+}
+.student-rating div {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  border: 2px solid gray;
+  background-color: #0bc560;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
