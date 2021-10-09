@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Services from './components/Services/Services';
 import About from './components/About/About';
-import Resistration from './components/Resistration/Resistration';
 import Header from './components/Header/Header';
 import NotFound from './components/NotFound/NotFound';
 import Contact from './components/Contact/Contact';
@@ -27,9 +26,6 @@ function App() {
           </Route>
           <Route path="/about">
             <About></About>
-          </Route>
-          <Route path="/registration">
-          <Resistration></Resistration>
           </Route>
           <Route path="/contact">
             <Contact></Contact>

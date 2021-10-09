@@ -9,7 +9,7 @@ const IntialService = (props) => {
     return (
         <Col className="card-style">
             <Card>
-                <Card.Img style={{width: "300px", height: "250px"}} variant="top" src={img} />
+                <Card.Img className="card-img" variant="top" src={img} />
                 <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>

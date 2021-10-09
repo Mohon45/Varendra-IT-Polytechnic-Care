@@ -22,11 +22,11 @@ const Footer = () => {
                     <p className="footer-description">Barindra IT is one of the best IT companies in Rajshahi city. And here is a coaching center called Polytechnic Care. At this coaching center, the students of all the polytechnics of Rajshahi city later.</p>
 
                     <div className="social-icon">
-                        <Link><i className="fab fa-facebook-square fa-3x"></i></Link>
-                        <Link><i className="fab fa-instagram-square fa-3x"></i></Link>
-                        <Link><i className="fab fa-twitter-square fa-3x"></i></Link>
-                        <Link><i className="fab fa-linkedin fa-3x"></i></Link>
-                        <Link><i className="fab fa-github-square fa-3x"></i></Link>
+                        <Link to="/"><i className="fab fa-facebook-square fa-3x"></i></Link>
+                        <Link to="/"><i className="fab fa-instagram-square fa-3x"></i></Link>
+                        <Link to="/"><i className="fab fa-twitter-square fa-3x"></i></Link>
+                        <Link to="/"><i className="fab fa-linkedin fa-3x"></i></Link>
+                        <Link to="/"><i className="fab fa-github-square fa-3x"></i></Link>
                     </div>
                     <h2 style={{fontWeight: "bold", color: "#0BC560", marginTop: "30px"}}>Help Desk</h2>
                     <h3>01782638193</h3>

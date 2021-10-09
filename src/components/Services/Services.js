@@ -1,38 +1,27 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
+import Service from '../Service/Service';
 
 const Services = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch()
+        fetch('./services.JSON')
         .then(res => res.json())
-        // .then(data => console.log(data))
+        .then(data => setServices(data));
     }, [])
-    // const {img, title, desc, price, time} = service;
-    console.log(services);
+    // console.log(services);
 
     return (
-        <div>
-            <Row xs={1} md={2} className="g-4">
-                
-                    <Col>
-                    <Card>
-                        <img src={services.img} alt="" />
-                        <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a longer card with supporting text below as a natural
-                            lead-in to additional content. This content is a little bit longer.
-                        </Card.Text>
-                        </Card.Body>
-                    </Card>
-                    </Col>
-                
-                </Row>
-        </div>
+        <Container>
+            <Row xs={1} md={3} className="g-4 my-5">
+                {
+                    services.map(service => <Service service={service} key={service.key}></Service>)
+                }
+            </Row>
+        </Container>
     );
 };
 
