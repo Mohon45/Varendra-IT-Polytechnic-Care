@@ -11,7 +11,7 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-color">
       <Router>
         <Header></Header>
         <Switch>

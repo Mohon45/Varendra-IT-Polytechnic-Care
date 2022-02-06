@@ -16,7 +16,7 @@ const Home = () => {
     // console.log(service)
     
     return (
-        <div>
+        <div className='bg-color'>
             <div  className="home-header">
                 <Container>
                     <div className="title-section">
