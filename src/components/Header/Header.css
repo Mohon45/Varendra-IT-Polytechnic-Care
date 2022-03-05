@@ -1,6 +1,7 @@
 .navber-design {
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(to right, #533e85, #488fb1);
 }
 .header-name {
   font-size: 2.5rem;
