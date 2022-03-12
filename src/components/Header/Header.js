@@ -27,16 +27,14 @@ const Header = () => {
 
                         <Nav className="justify-content-end" activeKey="/home">
                             <Nav.Item>
-                                <NavLink className="nav-link text-success" to="/home">Home</NavLink>
+                                <NavLink className="nav-link" to="/home">Home</NavLink>
+                            </Nav.Item>
+                        
+                            <Nav.Item>
+                                <NavLink className="nav-link" to="/about">About</NavLink>
                             </Nav.Item>
                             <Nav.Item>
-                                <NavLink className="nav-link text-success" to="/service">Services</NavLink>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <NavLink className="nav-link text-success" to="/about">About</NavLink>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <NavLink className="nav-link text-success" to="/contact">Contact</NavLink>
+                                <NavLink className="nav-link" to="/contact">Contact</NavLink>
                             </Nav.Item>
                         </Nav>
                     </Container>
