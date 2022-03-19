@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import logo from '../../Images/logo.png'
 import './Header.css';
 import Topbar from './Topbar/Topbar';
@@ -10,7 +10,23 @@ const Header = () => {
         <div className='bg-color'>
             <div>
                 <Topbar/>
-                <Navbar variant="light"  className="navber-design">
+                <Navbar className="navber-design" variant="light" collapseOnSelect expand="lg">
+                    <Container>
+                        <Navbar.Brand className="nav-title wrap" href="#home">
+                            <img className='nav-img' src={logo} alt="" />
+                        </Navbar.Brand>
+                        <Navbar.Toggle />
+                        <Navbar.Collapse className="justify-content-end">
+                            <Nav className="nav-link">
+                                <Nav.Link className="nav-link-only nav-item" as={HashLink} to="/">Home</Nav.Link>
+                                <Nav.Link className="nav-link-only nav-item" as={HashLink} to="/service">Our Courses</Nav.Link>
+                                <Nav.Link className="nav-link-only nav-item" as={HashLink} to="/about">SCDP</Nav.Link>
+                                <Nav.Link className="nav-link-only nav-item" as={HashLink} to="/about">Polytech Kocing</Nav.Link>
+                            </Nav>
+                        </Navbar.Collapse>
+                    </Container>
+                </Navbar>
+                {/* <Navbar variant="light"  className="navber-design">
                     <Container>
                         
                         <Navbar className="header-name" href="#home">
@@ -38,7 +54,7 @@ const Header = () => {
                             </Nav.Item>
                         </Nav>
                     </Container>
-                </Navbar>
+                </Navbar> */}
             </div>
         </div>
     );

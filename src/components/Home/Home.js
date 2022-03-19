@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { Container, Row} from 'react-bootstrap';
+import Slider from '../Header/Slider/Slider';
 import IntialService from '../IntialService/IntialService';
 import './Home.css';
 
@@ -17,11 +18,12 @@ const Home = () => {
     
     return (
         <div className='bg-color'>
+            <Slider/>
             <div  className="home-header">
                 <Container>
                     <div className="title-section">
                         <h1>Varendra IT & <span> Polytechnic Care</span></h1>
-                        <p>Barindra IT is one of the best IT companies in Rajshahi city.  And here is a coaching center called Polytechnic Care.  At this coaching center, the students of all the polytechnics of Rajshahi city later.  We have full experience of developers and teachers.  By which are worn very carefully</p>
+                        {/* <p>Barindra IT is one of the best IT companies in Rajshahi city.  And here is a coaching center called Polytechnic Care.  At this coaching center, the students of all the polytechnics of Rajshahi city later.  We have full experience of developers and teachers.  By which are worn very carefully</p> */}
                     </div>
                     <h1 style={{
                         textAlign: "center",
@@ -37,11 +39,11 @@ const Home = () => {
                             <h1>900</h1>
                             <h3>Students</h3>
                         </div>
-                        <div>
+                        {/* <div>
                             <h1>15</h1>
                             <h3>Teachers</h3>
-                        </div>
-                        <div>
+                        </div> */}
+                        {/* <div>
                             <h1>15</h1>
                             <h3>Developers</h3>
                         </div>
@@ -52,7 +54,7 @@ const Home = () => {
                         <div>
                             <h1>22</h1>
                             <h3>Courses</h3>
-                        </div>
+                        </div> */}
                     </div>
                     <h1 style={{
                         textAlign: "center",

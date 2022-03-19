@@ -5,7 +5,7 @@ import topbarLogo from '../../../Images/logo1.png';
 
 const Topbar = () => {
     return (
-        <Container>
+        <Container className='topbar'>
             <div className='row py-5 d-flex justify-content-between'>
                 <div className='col-md-4'>
                     <img src={topbarLogo} alt="" />

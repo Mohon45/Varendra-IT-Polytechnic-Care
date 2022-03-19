@@ -2,3 +2,9 @@
   /* background-color: aqua; */
   color: #0bc560;
 }
+
+@media only screen and (max-width: 600px) {
+  .topbar {
+    display: none;
+  }
+}
