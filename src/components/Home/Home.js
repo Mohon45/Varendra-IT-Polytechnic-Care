@@ -1,21 +1,9 @@
 import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
-import { Container, Row} from 'react-bootstrap';
+import { Container} from 'react-bootstrap';
 import Slider from '../Header/Slider/Slider';
-import IntialService from '../IntialService/IntialService';
 import './Home.css';
 
-const Home = () => {
-    const [service, setService] = useState([]);
-
-    useEffect(() => {
-        fetch('./service.JSON')
-        .then(res => res.json())
-        .then(data => setService(data));
-    },[]);
-    // console.log(service)
-    
+const Home = () => { 
     return (
         <div className='bg-color'>
             <Slider/>
@@ -64,13 +52,6 @@ const Home = () => {
                         width: "25%",
                         margin: "auto"
                     }}>Our Services</h1>
-                    <div>
-                        <Row xs={1} md={4} className="g-4 my-5">
-                            {
-                                service.map(service1 => <IntialService service1={service1}></IntialService>)
-                            }
-                        </Row>
-                    </div>
                 </Container>
             </div>
         </div>

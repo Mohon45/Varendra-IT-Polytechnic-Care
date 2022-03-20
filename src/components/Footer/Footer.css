@@ -3,37 +3,49 @@
   color: white;
   padding-top: 30px;
   padding-bottom: 30px;
+  font-family: "Poppins", sans-serif;
 }
-.footer-description {
-  width: 500px;
-}
-.social-icon i {
-  margin-right: 20px;
-  margin-top: 30px;
-}
-.social-icon i:hover {
-  color: #0bc560;
-}
-.footer-container {
+.footer-1st-section {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
-.about-us {
-  margin-top: 30px;
+.footer-1st-section img {
+  width: 100px;
+  margin-bottom: 30px;
 }
-.about-us h1 {
-  font-weight: bold;
-  color: #0bc560;
+.footer-motivate-speach {
+  font-size: 1rem;
+  margin-top: 10px;
 }
-.about-us ul li {
-  list-style-type: none;
+.footer-icon {
+  padding: 5px 10px 5px 10px;
+  margin-left: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.ft-text {
   font-size: 1.2rem;
-  margin-top: 5px;
 }
-.about-us ul li:hover {
-  color: #0bc560;
-  cursor: pointer;
+.footer-icon a {
+  color: white;
 }
-.footer-intro {
+.footer-icon:hover {
+  background-color: #0bc560;
+}
+.contact-icon {
+  padding: 5px 10px 5px 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.quick-link {
+  list-style: none;
+}
+.quick-link li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}
+.quick-link li a:hover {
   color: #0bc560;
 }
