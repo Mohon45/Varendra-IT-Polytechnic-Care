@@ -38,8 +38,8 @@ const Footer = () => {
                                     <i class="fas fa-phone-square-alt contact-icon fa-2x"></i>
                                 </div>
                                 <div className='ft-text ms-4'>
-                                    <p className='m-0 pb-1'>01782638193</p>
-                                    <p>01303756025</p>
+                                    <p className='m-0 pb-1'>01797336604 (office)</p>
+                                    <p>01719132276(CEO)</p>
                                 </div>
                             </div>
                             <div className='d-flex align-items-center'>
