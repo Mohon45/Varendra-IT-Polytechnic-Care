@@ -18,8 +18,7 @@
   font-family: "Poppins", sans-serif;
 }
 .nav-item:hover {
-  background-color: #0bc560;
-  /* color: #ffff; */
+  background-color: #0f132be7;
   border-radius: 10px;
 }
 .nav-img {

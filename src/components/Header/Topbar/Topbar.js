@@ -17,19 +17,18 @@ const Topbar = () => {
                                 <i class="top-icon fas fa-phone-square-alt fa-3x"></i>
                             </div>
                             <div className='ms-3 text-white'>
-                                <p className='m-0'>+8801782638193</p>
-                                <p className='m-0'>+8801303756025</p>
+                                <p className='m-0'>01797336604</p>
+                                <p className='m-0'>01719132276</p>
                             </div>
                         </div>
                     </div>
                     <div className='col-md-3'>
                         <div className='d-flex'>
                             <div>
-                                <i class="top-icon fas fa-phone-square-alt fa-3x"></i>
+                                <i class="top-icon fas fa-envelope fa-3x"></i>
                             </div>
                             <div className='ms-3 text-white'>
-                                <p className='m-0'>+8801782638193</p>
-                                <p className='m-0'>+8801303756025</p>
+                                <p className='m-0'>varendraitltd@gmail.com</p>
                             </div>
                         </div>
                     </div>

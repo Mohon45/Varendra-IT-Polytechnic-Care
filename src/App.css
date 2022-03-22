@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .bg-color {
   background-color: #0f132be7;
+  font-family: "Poppins", sans-serif;
 }

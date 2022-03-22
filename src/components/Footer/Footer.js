@@ -29,7 +29,7 @@ const Footer = () => {
                                 </div>
                                 <div className='ft-text lh-1 ms-4'>
                                     <p className='fw-bold'>Head Office:</p>
-                                    <p className='m-0 pb-1'>Beauty Plaza ( 2nd Flor )</p>
+                                    <p className='m-0 pb-1'>Beauty Plaza ( 2nd & 4th Flor )</p>
                                     <p>Boalia, Rajshahi</p>
                                 </div>
                             </div>

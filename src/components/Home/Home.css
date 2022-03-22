@@ -7,36 +7,28 @@
   height: 90vh; */
 /* background-color: #f5f5f5; */
 /* } */
-.title-section {
-  padding-top: 80px;
-}
-.title-section h1 {
-  font-size: 70px;
-  color: #0bc560;
-  font-weight: bold;
-}
-.title-section h1 span {
-  color: #ffc107;
-}
-.title-section p {
-  width: 700px;
-  color: #0bc560;
-  font-size: 20px;
-  /* font-weight: bold; */
-}
 
-.student-rating {
-  display: flex;
-  justify-content: center;
+.sort-bio{
+  text-decoration: none;
+  color: #EEEE;
+  border-bottom: 2px solid #0f132be7;
+  border-radius: 5px;
 }
-.student-rating div {
-  margin-top: 30px;
-  margin-bottom: 40px;
-  margin-left: 100px;
-  border: 2px solid gray;
-  background-color: #0bc560;
-  color: #f5f5f5;
+.sort-bio:hover{
+  color: #0f132be7;
+  border-bottom: 2px solid #F14B36;
+}
+.card-style{
+  background-image: linear-gradient(to right, #533e85, #488fb1);
+  border: none;
+}
+.single-card{
   text-align: center;
-  padding: 20px;
-  border-radius: 10px;
+}
+.single-card img{
+  width: 80px;
+  height: 80px;
+}
+.single-according-item{
+  background-image: linear-gradient(to right, #533e85, #488fb1);
 }
