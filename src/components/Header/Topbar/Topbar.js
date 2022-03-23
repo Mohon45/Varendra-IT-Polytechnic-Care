@@ -29,6 +29,7 @@ const Topbar = () => {
                             </div>
                             <div className='ms-3 text-white'>
                                 <p className='m-0'>varendraitltd@gmail.com</p>
+                                <p className='m-0'>helpvit@gmail.com</p>
                             </div>
                         </div>
                     </div>
