@@ -10,6 +10,9 @@ import question from '../../Images/question.png';
 import partner1 from '../../Images/band-promote/partner1.png';
 import partner2 from '../../Images/band-promote/partner2.png';
 import ceoPhoto from '../../Images/banner2.jpg';
+import office from '../../Images/courses/office.png';
+import web from '../../Images/courses/web.png';
+import app from '../../Images/courses/appDevelopment.png';
 
 const Home = () => { 
     return (
@@ -21,45 +24,45 @@ const Home = () => {
                     <div className="row">
                         <div className="col-md-3 col-sm-12">
                             <div className="card card-style mb-2">
-                                <a className='sort-bio' href="">
+                                <div className='sort-bio'>
                                     <div className="card-body single-card">
                                         <img className='my-3' src={bio1} alt='e' />
                                         <h5 className="card-title">7 YEARS OF EXCELLENCE</h5>
                                     </div>
-                                </a>
+                                </div>
                                 
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-12">
                             <div className="card card-style mb-2">
-                                <a className='sort-bio' href="">
+                                <div className='sort-bio'>
                                     <div className="card-body single-card">
                                         <img className='my-3' src={bio2} alt='e' />
                                         <h5 className="card-title">20000+ TRAINED STUDENTS</h5>
                                     </div>
-                                </a>
+                                </div>
                                 
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-12">
                             <div className="card card-style mb-2">
-                                <a className='sort-bio' href="">
+                                <div className='sort-bio'>
                                     <div className="card-body single-card">
                                         <img className='my-3' src={bio3} alt='e' />
                                         <h5 className="card-title">5000+ JOB PLACEMENTS</h5>
                                     </div>
-                                </a>
+                                </div>
                                 
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-12">
                             <div className="card card-style mb-2">
-                                <a className='sort-bio' href="">
+                                <div className='sort-bio'>
                                     <div className="card-body single-card">
                                         <img className='my-3' src={bio4} alt='e' />
                                         <h5 className="card-title">50+ EXPERT TRAINERS</h5>
                                     </div>
-                                </a>
+                                </div>
                                 
                             </div>
                         </div>
@@ -70,6 +73,77 @@ const Home = () => {
                     {/* about start */}
 
                     {/* about end */}
+
+                    {/* Courses section start */}
+                    <div className='pb-2'>
+                        <h1 className='text-white text-center fw-bold question-title py-5'>আমাদের কোর্সসমূহ</h1>
+                        
+                        <div>
+                            <div className='container pt-5'>
+                                <div className='row'>
+                                    <div className='col-md-4 pb-4'>
+                                        <a href='/' alt='office-application'>
+                                            <div className='card hover-effect'>
+                                                <div className='view overlay'>
+                                                    <img className='card-img-top w-100' src={office} alt="card-img" />
+                                                    <a href='/'>
+                                                        <div className='mask rgba-white-slight'></div>
+                                                    </a>
+                                                </div>
+
+                                                <div className='card-body'>
+                                                    <a href='/' className='btn btn-design px-4'>Enroll Now</a>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className='col-md-4 pb-4'>
+                                        <a href='/' alt='office-application'>
+                                            <div className='card hover-effect'>
+                                                <div className='view overlay'>
+                                                    <img className='card-img-top' src={web} alt="card-img" />
+                                                    <a href='/'>
+                                                        <div className='mask rgba-white-slight'></div>
+                                                    </a>
+                                                </div>
+
+                                                <div className='card-body'>
+                                                    <a href='/' className='btn btn-design px-4'>Enroll Now</a>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className='col-md-4 pb-4'>
+                                        <a href='/' alt='office-application'>
+                                            <div className='card hover-effect'>
+                                                <div className='view overlay'>
+                                                    <img className='card-img-top' src={app} alt="card-img" />
+                                                    <a href='/'>
+                                                        <div className='mask rgba-white-slight'></div>
+                                                    </a>
+                                                </div>
+
+                                                <div className='card-body'>
+                                                    <a href='/' className='btn btn-design px-4'>Enroll Now</a>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className='row more-top mt-3'>
+                                        <div className='col-md-3 col-sm-12 more-course  text-center'>
+                                           <a href='/courses' className='d-flex justify-content-evenly align-items-center text-white'>
+                                                <p className='mt-2 p-0'>More Courses</p>
+                                                <i class="fas fa-arrow-right fa-2x p-0"></i>
+                                           </a>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Courses section end */}
 
                     {/* basic question section start */}
                     <div className='py-5'>
@@ -176,13 +250,22 @@ const Home = () => {
                     <div className='pb-2'>
                         <h1 className='text-white text-center fw-bold question-title py-5'>Founder of Varendra IT</h1>
                         <div className='row'>
-                            <div className='col-md-5 ceo-img'>
-                                <img src={ceoPhoto}/>
+                            <div className='col-md-2'>
+
                             </div>
-                            <div className='col-md-6 ceo-desc text-white'>
-                                <p className='text-align-justify'>Sit no amet est diam sit et sadipscing erat eirmod, no lorem dolores duo et eos. Sadipscing sit ipsum sadipscing diam eirmod diam kasd et eos, ut invidunt sea dolor justo gubergren clita, aliquyam sed amet sit sed, amet elitr dolor sit eos sed diam takimata est, ipsum et sanctus ipsum rebum labore at rebum aliquyam takimata. Rebum at consetetur consetetur dolor rebum magna. Et voluptua amet sanctus ea ipsum sea, lorem aliquyam labore voluptua duo, amet tempor vero gubergren est gubergren, lorem sed clita eos rebum. Eirmod sit diam takimata sadipscing stet ipsum. Amet sea et justo ipsum justo.</p>
+                            <div className='col-md-4 ceo-img'>
+                                <img className='rounded' src={ceoPhoto}/>
+                            </div>
+                            <div className='col-md-4 ceo-desc text-white'>
+                                <p className='text-align-justify'>As one of the leading IT solution providers of Bangladesh, 
+                                we are working with the vision of making the nation proficient in the Global IT village by 
+                                building a platform which serves business owners as well as freelancers with comprehensive 
+                                training for IT skills and professional enterprise solutions</p>
                                 <i className='fw-bold'>Sarowar Jahan (mim)</i>
                                 <p>CEO & Founder</p>
+                            </div>
+                            <div className='col-md-2'>
+
                             </div>
                         </div>
                     </div>

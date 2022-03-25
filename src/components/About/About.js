@@ -1,17 +1,17 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import about from './about.jpg';
+import about from '../../Images/about.jpg';
 
 const About = () => {
     return (
-        <div>
+        <div className='bg-color text-white'>
             <Container>
                 <Row>
                     <Col className="my-5">
-                        <h1 className="fw-bold " style={{color: "#0BC560"}}>Why Choose Us</h1>
+                        <h1 className="fw-bold " style={{color: "#488fb1"}}>Why Choose Us</h1>
                         <h2>12+ Years of Experience</h2>
                         <h2>Resource Managment</h2>
-                        <p>Barindra IT is one of the best IT companies in Rajshahi city. And here is a coaching center called Polytechnic Care. At this coaching center, the students of all the polytechnics of Rajshahi city later.</p>
+                        <p>Varendra IT is one of the best IT companies in Rajshahi city. And here is a coaching center called Polytechnic Care. At this coaching center, the students of all the polytechnics of Rajshahi city later.</p>
                         <div className="d-flex">
                             <div className="p-3">
                                 <h2>Extensive Employment</h2>

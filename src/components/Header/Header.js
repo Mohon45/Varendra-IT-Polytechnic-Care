@@ -12,14 +12,14 @@ const Header = () => {
                 <Topbar/>
                 <Navbar className="navber-design" collapseOnSelect expand="lg">
                     <Container>
-                        <Navbar.Brand className="nav-title wrap" href="#home">
-                            <img className='nav-img' src={logo} alt="" />
+                        <Navbar.Brand className="nav-title wrap">
+                            
                         </Navbar.Brand>
                         <Navbar.Toggle />
                         <Navbar.Collapse className="justify-content-end">
                             <Nav className="nav-link">
                                 <Nav.Link className="nav-link-only nav-item" style={{color: 'white'}} as={HashLink} to="/">Home</Nav.Link>
-                                <Nav.Link className="nav-link-only nav-item" style={{color: 'white'}} as={HashLink} to="/service">Our Courses</Nav.Link>
+                                <Nav.Link className="nav-link-only nav-item" style={{color: 'white'}} as={HashLink} to="/courses">Our Courses</Nav.Link>
                                 <Nav.Link className="nav-link-only nav-item" style={{color: 'white'}} as={HashLink} to="/about">Photo Gallery</Nav.Link>
                                 <Nav.Link className="nav-link-only nav-item" style={{color: 'white'}} as={HashLink} to="/contact">Contact Us</Nav.Link>
                             </Nav>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container} from 'react-bootstrap';
 import './Footer.css';
-import logo from '../../Images/footer-logo.png'
+import logo from '../../Images/logo-big.png';
 
 const Footer = () => {
     return (
@@ -23,7 +23,7 @@ const Footer = () => {
                     <div className='col-md-4 mt-3'>
                         <div>
                             <h3 className='fw-bold mb-2'>Contact Us</h3>
-                            <div className='d-flex align-items-center'>
+                            <div className='d-flex align-items-center mt-4'>
                                 <div>
                                     <i class="fas fa-map-marker-alt contact-icon fa-2x"></i>
                                 </div>
