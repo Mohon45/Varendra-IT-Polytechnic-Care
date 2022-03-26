@@ -2,17 +2,26 @@ import React from 'react';
 import { Accordion, Container} from 'react-bootstrap';
 import Slider from '../Header/Slider/Slider';
 import './Home.css';
+import about from '../../Images/about-final.png';
 import bio1 from '../../Images/sort-bio/bio-1.png';
 import bio2 from '../../Images/sort-bio/bio-2.png';
 import bio3 from '../../Images/sort-bio/bio-3.png';
 import bio4 from '../../Images/sort-bio/bio-4.png';
+
 import question from '../../Images/question.png';
-import partner1 from '../../Images/band-promote/partner1.png';
-import partner2 from '../../Images/band-promote/partner2.png';
-import ceoPhoto from '../../Images/banner2.jpg';
+
+import partner1 from '../../Images/band-promote/bteb.png';
+import partner2 from '../../Images/band-promote/basis.png';
+import partner3 from '../../Images/band-promote/bmet.png';
+import partner4 from '../../Images/band-promote/canada-tm.png';
+import partner5 from '../../Images/band-promote/ict-devision.png';
+import partner6 from '../../Images/band-promote/world-bank.png';
+
 import office from '../../Images/courses/office.png';
-import web from '../../Images/courses/web.png';
-import app from '../../Images/courses/appDevelopment.png';
+import Graphics from '../../Images/courses/graphics.png';
+import poly from '../../Images/courses/poly.png';
+
+import ceo from '../../Images/ceo.jpg';
 
 const Home = () => { 
     return (
@@ -22,37 +31,34 @@ const Home = () => {
                 <Container>
                     {/* sort bio start */}
                     <div className="row">
-                        <div className="col-md-3 col-sm-12">
+                        <div className="col-md-3 col-sm-12 single-card-course">
                             <div className="card card-style mb-2">
                                 <div className='sort-bio'>
                                     <div className="card-body single-card">
                                         <img className='my-3' src={bio1} alt='e' />
-                                        <h5 className="card-title">7 YEARS OF EXCELLENCE</h5>
+                                        <h5 className="card-title">5 YEARS OF EXCELLENCE</h5>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-12">
+                        <div className="col-md-3 col-sm-12 single-card-course">
                             <div className="card card-style mb-2">
                                 <div className='sort-bio'>
                                     <div className="card-body single-card">
                                         <img className='my-3' src={bio2} alt='e' />
-                                        <h5 className="card-title">20000+ TRAINED STUDENTS</h5>
+                                        <h5 className="card-title">2000+ TRAINED STUDENTS</h5>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-12">
+                        <div className="col-md-3 col-sm-12 single-card-course">
                             <div className="card card-style mb-2">
                                 <div className='sort-bio'>
                                     <div className="card-body single-card">
                                         <img className='my-3' src={bio3} alt='e' />
-                                        <h5 className="card-title">5000+ JOB PLACEMENTS</h5>
+                                        <h5 className="card-title">250+ JOB PLACEMENTS</h5>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-12">
@@ -60,19 +66,13 @@ const Home = () => {
                                 <div className='sort-bio'>
                                     <div className="card-body single-card">
                                         <img className='my-3' src={bio4} alt='e' />
-                                        <h5 className="card-title">50+ EXPERT TRAINERS</h5>
+                                        <h5 className="card-title">30+ EXPERT TRAINERS</h5>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
-                        
-                    </div>
+                    </div >
                     {/* sort bio end */}
-
-                    {/* about start */}
-
-                    {/* about end */}
 
                     {/* Courses section start */}
                     <div className='pb-2'>
@@ -82,51 +82,51 @@ const Home = () => {
                             <div className='container pt-5'>
                                 <div className='row'>
                                     <div className='col-md-4 pb-4'>
-                                        <a href='/' alt='office-application'>
+                                        <a href='/courses' alt='office-application'>
                                             <div className='card hover-effect'>
                                                 <div className='view overlay'>
                                                     <img className='card-img-top w-100' src={office} alt="card-img" />
-                                                    <a href='/'>
+                                                    <a href='/courses'>
                                                         <div className='mask rgba-white-slight'></div>
                                                     </a>
                                                 </div>
 
                                                 <div className='card-body'>
-                                                    <a href='/' className='btn btn-design px-4'>Enroll Now</a>
+                                                    <a href='/courses' className='btn btn-design px-4'>Enroll Now</a>
                                                 </div>
                                             </div>
                                         </a>
                                     </div>
 
                                     <div className='col-md-4 pb-4'>
-                                        <a href='/' alt='office-application'>
+                                        <a href='/courses' alt='office-application'>
                                             <div className='card hover-effect'>
                                                 <div className='view overlay'>
-                                                    <img className='card-img-top' src={web} alt="card-img" />
-                                                    <a href='/'>
+                                                    <img className='card-img-top' src={Graphics} alt="card-img" />
+                                                    <a href='/courses'>
                                                         <div className='mask rgba-white-slight'></div>
                                                     </a>
                                                 </div>
 
                                                 <div className='card-body'>
-                                                    <a href='/' className='btn btn-design px-4'>Enroll Now</a>
+                                                    <a href='/courses' className='btn btn-design px-4'>Enroll Now</a>
                                                 </div>
                                             </div>
                                         </a>
                                     </div>
 
                                     <div className='col-md-4 pb-4'>
-                                        <a href='/' alt='office-application'>
+                                        <a href='/courses' alt='office-application'>
                                             <div className='card hover-effect'>
                                                 <div className='view overlay'>
-                                                    <img className='card-img-top' src={app} alt="card-img" />
-                                                    <a href='/'>
+                                                    <img className='card-img-top' src={poly} alt="card-img" />
+                                                    <a href='/courses'>
                                                         <div className='mask rgba-white-slight'></div>
                                                     </a>
                                                 </div>
 
                                                 <div className='card-body'>
-                                                    <a href='/' className='btn btn-design px-4'>Enroll Now</a>
+                                                    <a href='/courses' className='btn btn-design px-4'>Enroll Now</a>
                                                 </div>
                                             </div>
                                         </a>
@@ -145,6 +145,17 @@ const Home = () => {
                     </div>
                     {/* Courses section end */}
 
+                    {/* about start */}
+                    <div className='pb-2'>
+                        <h1 className='text-white text-center fw-bold question-title py-5'>আমাদের সম্পর্কে জানুন</h1>
+                        <div className='row'>
+                            <div className='col-md-12 about-img'>
+                                <img src={about} alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    {/* about end */}
+
                     {/* basic question section start */}
                     <div className='py-5'>
                         <h1 className='text-white text-center fw-bold question-title my-5'>আমাদের সম্পর্কিত সাধারণ জিজ্ঞাসা</h1>
@@ -155,63 +166,58 @@ const Home = () => {
                             <div className='col-md-6 my-5'>
                                 <Accordion>
                                     <Accordion.Item className='single-according-item mb-3' eventKey="0">
-                                        <Accordion.Header>Accordion Item #1</Accordion.Header>
-                                        <Accordion.Body>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                        est laborum.
+                                        <Accordion.Header className='fw-bold'>আপনাদের কোর্সসমূহ ?</Accordion.Header>
+                                        <Accordion.Body className='text-white'>
+                                        আমাদের কোর্স সমূহ: <br />
+                                        1. কম্পিউটার অফিস অ্যাপ্লিকেশন <br />
+                                        2. গ্রাফিক ডিজাইন উইথ ফ্রিল্যান্সিং গাইড লাইন <br />
+                                        3. ‍অটোক্যাড ২ডি ও ৩ডি <br />
+                                        4. ডুয়েট প্রিপারেশন + জব কোচিং <br />
+                                        5. ওয়েব ডিজাইন এন্ড ডেভেলপমেন্ট <br />
+                                        6. ডিজিটাল মার্কেটিং <br />
+                                        7. অ্যাপ ডেভেলপমেন্ট <br />
+                                        8. পলিটেকনিক কোচিং <br />
+                                        9. স্পোকেন ইংলিশ
                                         </Accordion.Body>
                                     </Accordion.Item>
                                     <Accordion.Item className='single-according-item mb-3' eventKey="1">
-                                        <Accordion.Header>Accordion Item #2</Accordion.Header>
-                                        <Accordion.Body>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                        est laborum.
+                                        <Accordion.Header className='fw-bold'>কোন কোর্স এর কত ফি ?</Accordion.Header>
+                                        <Accordion.Body className='text-white'>
+                                        কোর্স ফি সমূহ: <br />
+                                        1. কম্পিউটার অফিস অ্যাপ্লিকেশন (৩/৬ মাস) - ৩০০০/- <br />
+                                        2. গ্রাফিক ডিজাইন উইথ ফ্রিল্যান্সিং গাইড লাইন (৪ মাস) - ৬০০০/- <br />
+                                        3. ‍অটোক্যাড ২ডি ও ৩ডি (৩/৬ মাস) - ৩০০০/- <br />
+                                        4. ডুয়েট প্রিপারেশন অ্যান্ড জব কোচিং - খুব শীঘ্রই শুরু হবে। <br />
+                                        5. ওয়েব ডিজাইন এন্ড ডেভেলপমেন্ট (৪ মাস) - ৬০০০/- <br />
+                                        6. ডিজিটাল মার্কেটিং (৪ মাস) - ৬০০০/- <br />
+                                        7. মোবাইল অ্যাপ ডেভেলপমেন্ট - ৬০০০/- <br />
+                                        ৮. পলিটেকনিক কোচিং- ২৫০০/- <br />
+                                        ৯. স্পোকেন ইংলিশ - ১৫০০/- <br />
                                         </Accordion.Body>
                                     </Accordion.Item>
                                     <Accordion.Item className='single-according-item mb-3' eventKey="2">
-                                        <Accordion.Header>Accordion Item #3</Accordion.Header>
-                                        <Accordion.Body>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                        est laborum.
+                                        <Accordion.Header className='fw-bold'>আপনাদের কি কোন ফ্রী কোর্স  চলছে ?</Accordion.Header>
+                                        <Accordion.Body className='text-white'>
+                                        স্বাধিনতার সুবর্ণ জয়ন্তী উপলক্ষ্যে বর্তমানে আমাদের SCDP 
+                                        প্রজেক্টে এর আওতায় কম্পিউটার অফিস অ্যাপ্লিকেশন এবং 
+                                        গ্রাফিক ডিজাইন কোর্স এ ফ্রী ট্রেনিং প্রদান করা হচ্ছে। এ সুযোগটি
+                                         গ্রহন করতে পারবেন আগামী ১৪ এপ্রিল  ২০২২ পর্যন্ত।
                                         </Accordion.Body>
                                     </Accordion.Item>
                                     <Accordion.Item className='single-according-item mb-3' eventKey="3">
-                                        <Accordion.Header>Accordion Item #4</Accordion.Header>
-                                        <Accordion.Body>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                        est laborum.
+                                        <Accordion.Header className='fw-bold'>ফ্রি কোর্স এ কিভাবে ভর্তি হব ?</Accordion.Header>
+                                        <Accordion.Body className='text-white'>
+                                        ১ কপি ছবি ও ১ কপি এস এস সি এর মার্কশীট অথবা সনদপত্রের ফটোকপি নিয়ে
+                                         আমাদের অফিসে এসে ১০০ টাকা দিয়ে ফরম ফিলাপ করতে হবে। তারপর আমরা 
+                                         আপনার ব্যাচ ও টাইম নির্ধারণ করব। এরপর ‍আপনাকে ৩২০ টাকা প্রদান করে ভর্তি কনফার্ম
+                                          করে ক্লাস করতে পারবেন। এছাড়া আর কোন টাকা প্রদান করতে হবে না।
                                         </Accordion.Body>
                                     </Accordion.Item>
                                     <Accordion.Item className='single-according-item mb-3' eventKey="4">
-                                        <Accordion.Header>Accordion Item #5</Accordion.Header>
-                                        <Accordion.Body>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                        est laborum.
+                                        <Accordion.Header className='fw-bold'>আপনাদের ঠিকানা কোথায় ?</Accordion.Header>
+                                        <Accordion.Body className='text-white'>
+                                        আমাদের ঠিকানা: রাজশাহী পলিটেকনিক এর বিপরীতে, ২য় ও ৪র্থতলা, সপুরা, রাজশাহী।
+                                        অফিস সময়: সকাল ৮ টা হতে রাত ৮টা পর্যন্ত। মোবাইল নং: 01719132276
                                         </Accordion.Body>
                                     </Accordion.Item>
                                 </Accordion>
@@ -222,25 +228,25 @@ const Home = () => {
 
                     {/* our brand pratner section start */}
                     <div className='pb-2'>
-                        <h1 className='text-white text-center fw-bold question-title py-5'>Our Brand Partner</h1>
+                        <h1 className='text-white text-center fw-bold question-title py-5'>We are Associate with</h1>
                         <div className='pertner-row'>
-                            <div>
+                            <div className='brand-pertner'>
                                 <img src={partner1}/>
                             </div>
-                            <div>
-                                <img src={partner1}/>
-                            </div>
-                            <div>
-                                <img src={partner1}/>
-                            </div>
-                            <div>
-                                <img src={partner1}/>
-                            </div>
-                            <div>
-                                <img src={partner1}/>
-                            </div>
-                            <div>
+                            <div className='brand-pertner'>
                                 <img src={partner2}/>
+                            </div>
+                            <div className='brand-pertner'>
+                                <img src={partner3}/>
+                            </div>
+                            <div className='brand-pertner'>
+                                <img src={partner4}/>
+                            </div>
+                            <div className='brand-pertner'>
+                                <img src={partner5}/>
+                            </div>
+                            <div className='brand-pertner'>
+                                <img src={partner6}/>
                             </div>
                         </div>
                     </div>
@@ -248,21 +254,21 @@ const Home = () => {
 
                     {/* ceo details section start */}
                     <div className='pb-2'>
-                        <h1 className='text-white text-center fw-bold question-title py-5'>Founder of Varendra IT</h1>
+                        <h1 className='text-white text-center fw-bold question-title py-5'>Founder & CEO of Varendra IT</h1>
                         <div className='row'>
                             <div className='col-md-2'>
 
                             </div>
                             <div className='col-md-4 ceo-img'>
-                                <img className='rounded' src={ceoPhoto}/>
+                                <img className='rounded' src={ceo}/>
                             </div>
                             <div className='col-md-4 ceo-desc text-white'>
                                 <p className='text-align-justify'>As one of the leading IT solution providers of Bangladesh, 
                                 we are working with the vision of making the nation proficient in the Global IT village by 
                                 building a platform which serves business owners as well as freelancers with comprehensive 
                                 training for IT skills and professional enterprise solutions</p>
-                                <i className='fw-bold'>Sarowar Jahan (mim)</i>
-                                <p>CEO & Founder</p>
+                                <i className='fw-bold'>Sarwar Mim</i>
+                                <p>Founder & CEO</p>
                             </div>
                             <div className='col-md-2'>
 

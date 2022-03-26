@@ -20,7 +20,7 @@ const Header = () => {
                             <Nav className="nav-link">
                                 <Nav.Link className="nav-link-only nav-item" style={{color: 'white'}} as={HashLink} to="/">Home</Nav.Link>
                                 <Nav.Link className="nav-link-only nav-item" style={{color: 'white'}} as={HashLink} to="/courses">Our Courses</Nav.Link>
-                                <Nav.Link className="nav-link-only nav-item" style={{color: 'white'}} as={HashLink} to="/about">Photo Gallery</Nav.Link>
+                                <Nav.Link className="nav-link-only nav-item" style={{color: 'white'}} as={HashLink} to="/photo">Photo Gallery</Nav.Link>
                                 <Nav.Link className="nav-link-only nav-item" style={{color: 'white'}} as={HashLink} to="/contact">Contact Us</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>

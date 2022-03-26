@@ -30,7 +30,7 @@
   color: white;
 }
 .footer-icon:hover {
-  background-color: #0bc560;
+  background-color: #488fb1;
 }
 .contact-icon {
   padding: 5px 10px 5px 10px;
@@ -46,5 +46,9 @@
   color: white;
 }
 .quick-link li a:hover {
-  color: #0bc560;
+  color: #488fb1;
+}
+
+.footer-intro a {
+  text-decoration: none;
 }

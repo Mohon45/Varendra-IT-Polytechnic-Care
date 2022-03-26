@@ -30,9 +30,10 @@ const Contact = () => {
                         <h1>Contact Info</h1>
                         <p style={{width: "500px"}}>We denounce with righteous indignation in and dislike men who are so beguiled and to demo realized by the charms of pleasure moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound.</p>
                         <ul>
-                            <li>1207 Salbagan, Sopura, Rajshahi</li>
-                            <li>(+880)1782638193</li>
-                            <li>info@varendrait.com</li>
+                            <li>In front of RPI Gate, Sopura, Rajshahi</li>
+                            <li>+8801797336604</li>
+                            <li>+8801719132276</li>
+                            <li>varendraitltd@gmail.com</li>
                         </ul>
                     </div>
                 </div>

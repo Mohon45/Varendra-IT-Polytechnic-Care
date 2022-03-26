@@ -35,7 +35,7 @@
 }
 
 .ceo-img img{
- width: 100%;
+ width: 90%;
 }
 .ceo-desc{
   padding: 20px;
@@ -72,4 +72,14 @@
 }
 .more-top div a{
   text-decoration: none;
+}
+
+.brand-pertner img{
+  width: 150px;
+  height: 100px;
+  color: white;
+}
+
+.about-img img {
+  width: 100%;
 }
