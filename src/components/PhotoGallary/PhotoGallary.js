@@ -1,49 +1,5 @@
 import React from 'react';
 import './PhotoGallary.css';
-import img1 from '../../Images/photoGallary/1.jpg';
-import img2 from '../../Images/photoGallary/2.jpg';
-import img3 from '../../Images/photoGallary/3.jpg';
-import img4 from '../../Images/photoGallary/4.jpg';
-import img5 from '../../Images/photoGallary/5.jpg';
-import img6 from '../../Images/photoGallary/6.jpg';
-import img7 from '../../Images/photoGallary/7.jpg';
-import img8 from '../../Images/photoGallary/8.jpg';
-import img9 from '../../Images/photoGallary/9.jpg';
-import img10 from '../../Images/photoGallary/10.jpg';
-import img11 from '../../Images/photoGallary/11.jpg';
-import img12 from '../../Images/photoGallary/12.jpg';
-import img13 from '../../Images/photoGallary/13.jpg';
-import img14 from '../../Images/photoGallary/14.jpg';
-import img15 from '../../Images/photoGallary/15.jpg';
-import img16 from '../../Images/photoGallary/16.jpg';
-import img17 from '../../Images/photoGallary/17.jpg';
-import img18 from '../../Images/photoGallary/18.jpg';
-import img19 from '../../Images/photoGallary/19.jpg';
-import img20 from '../../Images/photoGallary/20.jpg';
-import img21 from '../../Images/photoGallary/21.jpg';
-import img22 from '../../Images/photoGallary/22.jpg';
-import img23 from '../../Images/photoGallary/23.jpg';
-import img24 from '../../Images/photoGallary/24.jpg';
-import img25 from '../../Images/photoGallary/25.jpg';
-import img26 from '../../Images/photoGallary/26.jpg';
-import img27 from '../../Images/photoGallary/27.jpg';
-import img28 from '../../Images/photoGallary/28.jpg';
-import img29 from '../../Images/photoGallary/29.jpg';
-import img30 from '../../Images/photoGallary/30.jpg';
-import img31 from '../../Images/photoGallary/31.jpg';
-import img32 from '../../Images/photoGallary/32.jpg';
-import img33 from '../../Images/photoGallary/33.jpg';
-import img34 from '../../Images/photoGallary/34.jpg';
-import img35 from '../../Images/photoGallary/35.jpg';
-import img36 from '../../Images/photoGallary/36.jpg';
-import img37 from '../../Images/photoGallary/37.jpg';
-import img38 from '../../Images/photoGallary/38.jpg';
-import img39 from '../../Images/photoGallary/39.jpg';
-import img40 from '../../Images/photoGallary/40.jpg';
-import img41 from '../../Images/photoGallary/41.jpg';
-import img42 from '../../Images/photoGallary/42.jpg';
-import img43 from '../../Images/photoGallary/43.jpg';
-import img44 from '../../Images/photoGallary/44.jpg';
 
 const PhotoGallary = () => {
     return(
@@ -51,136 +7,136 @@ const PhotoGallary = () => {
             <div className='pb-2'>
                 <div className='row'>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img44} alt="" />
+                        <img src='https://i.ibb.co/BKsHcc0/44.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img43} alt="" />
+                        <img src='https://i.ibb.co/X7rRMpq/43.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img41} alt="" />
+                        <img src='https://i.ibb.co/C9xdkx6/41.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img42} alt="" />
+                        <img src='https://i.ibb.co/wsZxJrV/42.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img1} alt="" />
+                        <img src='https://i.ibb.co/qYtGrPp/1.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img2} alt="" />
+                        <img src='https://i.ibb.co/98SHyLM/2.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img3} alt="" />
+                        <img src='https://i.ibb.co/JHtXzsg/3.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img4} alt="" />
+                        <img src='https://i.ibb.co/30b5CtS/4.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img5} alt="" />
+                        <img src='https://i.ibb.co/rGhk4zD/5.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img6} alt="" />
+                        <img src='https://i.ibb.co/h8rY2nH/6.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img7} alt="" />
+                        <img src='https://i.ibb.co/JCBXGmk/7.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img8} alt="" />
+                        <img src='https://i.ibb.co/3yyrxzC/8.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img9} alt="" />
+                        <img src='https://i.ibb.co/hWP6LcK/9.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img10} alt="" />
+                        <img src='https://i.ibb.co/B6rvrzh/10.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img11} alt="" />
+                        <img src='https://i.ibb.co/tx6wgzg/11.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img12} alt="" />
+                        <img src='https://i.ibb.co/BjczF97/12.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img13} alt="" />
+                        <img src='https://i.ibb.co/DzmXsL1/13.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img14} alt="" />
+                        <img src='https://i.ibb.co/WW35DwW/14.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img15} alt="" />
+                        <img src='https://i.ibb.co/VCv2s1N/15.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img16} alt="" />
+                        <img src='https://i.ibb.co/LZJB3BQ/16.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img17} alt="" />
+                        <img src='https://i.ibb.co/Gtrjxsz/17.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img18} alt="" />
+                        <img src='https://i.ibb.co/cL3hmLP/18.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img19} alt="" />
+                        <img src='https://i.ibb.co/4pXmtJQ/19.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img20} alt="" />
+                        <img src='https://i.ibb.co/pvzD5Xx/20.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img21} alt="" />
+                        <img src='https://i.ibb.co/HxT1yP9/21.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img22} alt="" />
+                        <img src='https://i.ibb.co/chznHyc/22.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img23} alt="" />
+                        <img src='https://i.ibb.co/B6mrH6L/23.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img24} alt="" />
+                        <img src='https://i.ibb.co/mbXZv5X/24.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img25} alt="" />
+                        <img src='https://i.ibb.co/SJB5J6F/25.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img26} alt="" />
+                        <img src='https://i.ibb.co/sjp2c7r/26.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img27} alt="" />
+                        <img src='https://i.ibb.co/sF05NZY/27.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img28} alt="" />
+                        <img src='https://i.ibb.co/Dw21pq5/28.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img29} alt="" />
+                        <img src='https://i.ibb.co/cr2sVSK/29.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img30} alt="" />
+                        <img src='https://i.ibb.co/r6nDW9b/30.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img31} alt="" />
+                        <img src='https://i.ibb.co/Kb9m7HC/31.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img32} alt="" />
+                        <img src='https://i.ibb.co/2Fd2hVv/32.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img33} alt="" />
+                        <img src='https://i.ibb.co/mRjtDvQ/33.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img34} alt="" />
+                        <img src='https://i.ibb.co/3mPywZ8/34.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img35} alt="" />
+                        <img src='https://i.ibb.co/wRcCGSm/35.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img36} alt="" />
+                        <img src='https://i.ibb.co/CHfGr2f/36.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img37} alt="" />
+                        <img src='https://i.ibb.co/ZKvjsLt/37.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img38} alt="" />
+                        <img src='https://i.ibb.co/MVZZ5Rp/38.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img39} alt="" />
+                        <img src='https://i.ibb.co/V9pBHkp/39.jpg' alt="" />
                     </div>
                     <div className='col-md-3 single-gallary-img'>
-                        <img src={img40} alt="" />
+                        <img src='https://i.ibb.co/B4FDc1y/40.jpg' alt="" />
                     </div>
                 </div>
             </div>

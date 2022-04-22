@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import './Slider.css';
-import banner1 from '../../../Images/slider-banner.png';
-import banner2 from '../../../Images/banner2.png';
 
 const Slider = () => {
     const [index, setIndex] = useState(0);
@@ -15,7 +13,7 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                 className="d-block single-slide-img w-100"
-                src={banner1}
+                src='https://i.ibb.co/DryPckc/slider-banner.png'
                 alt="First slide"
                 />
             </Carousel.Item>
@@ -23,7 +21,7 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                 className="d-block single-slide-img w-100"
-                src={banner2}
+                src='https://i.ibb.co/c1V3mVh/banner2.png'
                 alt="Second slide"
                 />
             </Carousel.Item>

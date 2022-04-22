@@ -1,16 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import './Courses.css';
-import office from '../../Images/courses/office.png';
-import web from '../../Images/courses/web.png';
-import app from '../../Images/courses/appDevelopment.png';
-import graphics from '../../Images/courses/graphics.png';
-import poly from '../../Images/courses/poly.png';
-import autocad from '../../Images/courses/autocad.png';
-import industrial from '../../Images/courses/inds.png';
-import spoken from '../../Images/courses/english.png';
-import digital from '../../Images/courses/Digital-Marketing.png';
-import threeD from '../../Images/courses/3D.png';
 
 const Courses = () => {
     return(
@@ -25,7 +15,7 @@ const Courses = () => {
                                     <a href='/' alt='office-application'>
                                         <div className='card hover-effect'>
                                             <div className='view overlay'>
-                                                <img className='card-img-top w-100' src={office} alt="card-img" />
+                                                <img className='card-img-top w-100' src='https://i.ibb.co/R47jqYH/office.png' alt="card-img" />
                                                 <a href='/'>
                                                     <div className='mask rgba-white-slight'></div>
                                                 </a>
@@ -42,7 +32,7 @@ const Courses = () => {
                                     <a href='/' alt='office-application'>
                                         <div className='card hover-effect'>
                                             <div className='view overlay'>
-                                                <img className='card-img-top' src={web} alt="card-img" />
+                                                <img className='card-img-top' src='https://i.ibb.co/KKjj0dJ/web.png' alt="card-img" />
                                                 <a href='/'>
                                                     <div className='mask rgba-white-slight'></div>
                                                 </a>
@@ -59,7 +49,7 @@ const Courses = () => {
                                     <a href='/' alt='office-application'>
                                         <div className='card hover-effect'>
                                             <div className='view overlay'>
-                                                <img className='card-img-top' src={app} alt="card-img" />
+                                                <img className='card-img-top' src='https://i.ibb.co/Wpq3dpk/app-Development.png' alt="card-img" />
                                                 <a href='/'>
                                                     <div className='mask rgba-white-slight'></div>
                                                 </a>
@@ -75,7 +65,7 @@ const Courses = () => {
                                     <a href='/' alt='office-application'>
                                         <div className='card hover-effect'>
                                             <div className='view overlay'>
-                                                <img className='card-img-top' src={graphics} alt="card-img" />
+                                                <img className='card-img-top' src='https://i.ibb.co/VDk9JVF/graphics.png' alt="card-img" />
                                                 <a href='/'>
                                                     <div className='mask rgba-white-slight'></div>
                                                 </a>
@@ -91,7 +81,7 @@ const Courses = () => {
                                     <a href='/' alt='office-application'>
                                         <div className='card hover-effect'>
                                             <div className='view overlay'>
-                                                <img className='card-img-top' src={poly} alt="card-img" />
+                                                <img className='card-img-top' src='https://i.ibb.co/0r8njKf/poly.png' alt="card-img" />
                                                 <a href='/'>
                                                     <div className='mask rgba-white-slight'></div>
                                                 </a>
@@ -107,7 +97,7 @@ const Courses = () => {
                                     <a href='/' alt='office-application'>
                                         <div className='card hover-effect'>
                                             <div className='view overlay'>
-                                                <img className='card-img-top' src={autocad} alt="card-img" />
+                                                <img className='card-img-top' src='https://i.ibb.co/fDxNfsZ/autocad.png' alt="card-img" />
                                                 <a href='/'>
                                                     <div className='mask rgba-white-slight'></div>
                                                 </a>
@@ -123,7 +113,7 @@ const Courses = () => {
                                     <a href='/' alt='office-application'>
                                         <div className='card hover-effect'>
                                             <div className='view overlay'>
-                                                <img className='card-img-top' src={industrial} alt="card-img" />
+                                                <img className='card-img-top' src='https://i.ibb.co/hVzCZ4c/inds.png' alt="card-img" />
                                                 <a href='/'>
                                                     <div className='mask rgba-white-slight'></div>
                                                 </a>
@@ -139,7 +129,7 @@ const Courses = () => {
                                     <a href='/' alt='office-application'>
                                         <div className='card hover-effect'>
                                             <div className='view overlay'>
-                                                <img className='card-img-top' src={spoken} alt="card-img" />
+                                                <img className='card-img-top' src='https://i.ibb.co/4pKWFh1/english.png' alt="card-img" />
                                                 <a href='/'>
                                                     <div className='mask rgba-white-slight'></div>
                                                 </a>
@@ -155,7 +145,7 @@ const Courses = () => {
                                     <a href='/' alt='office-application'>
                                         <div className='card hover-effect'>
                                             <div className='view overlay'>
-                                                <img className='card-img-top' src={digital} alt="card-img" />
+                                                <img className='card-img-top' src='https://i.ibb.co/HppKBBf/Digital-Marketing.png' alt="card-img" />
                                                 <a href='/'>
                                                     <div className='mask rgba-white-slight'></div>
                                                 </a>
@@ -171,7 +161,7 @@ const Courses = () => {
                                     <a href='/' alt='office-application'>
                                         <div className='card hover-effect'>
                                             <div className='view overlay'>
-                                                <img className='card-img-top' src={threeD} alt="card-img" />
+                                                <img className='card-img-top' src='https://i.ibb.co/cFN0dhM/3D.png' alt="card-img" />
                                                 <a href='/'>
                                                     <div className='mask rgba-white-slight'></div>
                                                 </a>

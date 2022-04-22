@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
-import logo from '../../Images/logo.png'
 import './Header.css';
 import Topbar from './Topbar/Topbar';
 

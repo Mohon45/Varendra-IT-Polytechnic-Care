@@ -1,14 +1,13 @@
 import React from 'react';
 import  './Topbar.css';
 import { Container } from 'react-bootstrap';
-import topbarLogo from '../../../Images/topber-logo.png';
 
 const Topbar = () => {
     return (
         <Container className='topbar'>
             <div className='row d-flex justify-content-between'>
                 <div className='col-md-4 top-img'>
-                    <img src={topbarLogo} alt="" />
+                    <img src='https://i.ibb.co/GVTKtCP/topber-logo.png' alt="" />
                 </div>
                 <div className='col-md-8 row justify-content-end py-5'>
                     <div className='col-md-3'>

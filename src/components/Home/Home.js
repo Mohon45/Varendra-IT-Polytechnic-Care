@@ -2,26 +2,7 @@ import React from 'react';
 import { Accordion, Container} from 'react-bootstrap';
 import Slider from '../Header/Slider/Slider';
 import './Home.css';
-import about from '../../Images/about-final.png';
-import bio1 from '../../Images/sort-bio/bio-1.png';
-import bio2 from '../../Images/sort-bio/bio-2.png';
-import bio3 from '../../Images/sort-bio/bio-3.png';
-import bio4 from '../../Images/sort-bio/bio-4.png';
-
-import question from '../../Images/question.png';
-
-import partner1 from '../../Images/band-promote/bteb.png';
-import partner2 from '../../Images/band-promote/basis.png';
-import partner3 from '../../Images/band-promote/bmet.png';
-import partner4 from '../../Images/band-promote/canada-tm.png';
-import partner5 from '../../Images/band-promote/ict-devision.png';
-import partner6 from '../../Images/band-promote/world-bank.png';
-
-import office from '../../Images/courses/office.png';
-import Graphics from '../../Images/courses/graphics.png';
-import poly from '../../Images/courses/poly.png';
-
-import ceo from '../../Images/ceo.jpg';
+import {Link} from "react-router-dom";
 
 const Home = () => { 
     return (
@@ -35,7 +16,7 @@ const Home = () => {
                             <div className="card card-style mb-2">
                                 <div className='sort-bio'>
                                     <div className="card-body single-card">
-                                        <img className='my-3' src={bio1} alt='e' />
+                                        <img className='my-3' src='https://i.ibb.co/fY2rZ2m/bio-1.png' alt='e' />
                                         <h5 className="card-title">5 YEARS OF EXCELLENCE</h5>
                                     </div>
                                 </div>
@@ -45,7 +26,7 @@ const Home = () => {
                             <div className="card card-style mb-2">
                                 <div className='sort-bio'>
                                     <div className="card-body single-card">
-                                        <img className='my-3' src={bio2} alt='e' />
+                                        <img className='my-3' src='https://i.ibb.co/vJsT4YW/bio-2.png' alt='e' />
                                         <h5 className="card-title">2000+ TRAINED STUDENTS</h5>
                                     </div>
                                 </div>
@@ -55,7 +36,7 @@ const Home = () => {
                             <div className="card card-style mb-2">
                                 <div className='sort-bio'>
                                     <div className="card-body single-card">
-                                        <img className='my-3' src={bio3} alt='e' />
+                                        <img className='my-3' src='https://i.ibb.co/bNgtDp1/bio-3.png' alt='e' />
                                         <h5 className="card-title">250+ JOB PLACEMENTS</h5>
                                     </div>
                                 </div>
@@ -65,7 +46,7 @@ const Home = () => {
                             <div className="card card-style mb-2">
                                 <div className='sort-bio'>
                                     <div className="card-body single-card">
-                                        <img className='my-3' src={bio4} alt='e' />
+                                        <img className='my-3' src='https://i.ibb.co/C0vQZxG/bio-4.png' alt='e' />
                                         <h5 className="card-title">30+ EXPERT TRAINERS</h5>
                                     </div>
                                 </div>
@@ -82,62 +63,53 @@ const Home = () => {
                             <div className='container pt-5'>
                                 <div className='row'>
                                     <div className='col-md-4 pb-4'>
-                                        <a href='/courses' alt='office-application'>
+                                        <Link to='/courses' alt='office-application'>
                                             <div className='card hover-effect'>
                                                 <div className='view overlay'>
-                                                    <img className='card-img-top w-100' src={office} alt="card-img" />
-                                                    <a href='/courses'>
-                                                        <div className='mask rgba-white-slight'></div>
-                                                    </a>
+                                                    <img className='card-img-top w-100' src='https://i.ibb.co/R47jqYH/office.png' alt="card-img" />
                                                 </div>
 
                                                 <div className='card-body'>
-                                                    <a href='/courses' className='btn btn-design px-4'>Enroll Now</a>
+                                                    <p className='btn btn-design px-4'>Enroll Now</p>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </div>
 
                                     <div className='col-md-4 pb-4'>
-                                        <a href='/courses' alt='office-application'>
+                                        <Link to='/courses' alt='office-application'>
                                             <div className='card hover-effect'>
                                                 <div className='view overlay'>
-                                                    <img className='card-img-top' src={Graphics} alt="card-img" />
-                                                    <a href='/courses'>
-                                                        <div className='mask rgba-white-slight'></div>
-                                                    </a>
+                                                    <img className='card-img-top' src='https://i.ibb.co/VDk9JVF/graphics.png' alt="card-img" />
                                                 </div>
 
                                                 <div className='card-body'>
-                                                    <a href='/courses' className='btn btn-design px-4'>Enroll Now</a>
+                                                    <p className='btn btn-design px-4'>Enroll Now</p>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </div>
 
                                     <div className='col-md-4 pb-4'>
-                                        <a href='/courses' alt='office-application'>
+                                        <Link to='/courses' alt='office-application'>
                                             <div className='card hover-effect'>
                                                 <div className='view overlay'>
-                                                    <img className='card-img-top' src={poly} alt="card-img" />
-                                                    <a href='/courses'>
-                                                        <div className='mask rgba-white-slight'></div>
-                                                    </a>
+                                                    <img className='card-img-top' src='https://i.ibb.co/0r8njKf/poly.png' alt="card-img" />
                                                 </div>
 
                                                 <div className='card-body'>
-                                                    <a href='/courses' className='btn btn-design px-4'>Enroll Now</a>
+                                                    <p className='btn btn-design px-4'>Enroll Now</p>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                                 <div className='row more-top mt-3'>
                                         <div className='col-md-3 col-sm-12 more-course  text-center'>
-                                           <a href='/courses' className='d-flex justify-content-evenly align-items-center text-white'>
+                                           <Link to='/courses' className='d-flex justify-content-evenly align-items-center text-white'>
                                                 <p className='mt-2 p-0'>More Courses</p>
                                                 <i class="fas fa-arrow-right fa-2x p-0"></i>
-                                           </a>
+                                           </Link>
                                         </div>
                                 </div>
                             </div>
@@ -150,7 +122,7 @@ const Home = () => {
                         <h1 className='text-white text-center fw-bold question-title py-5'>আমাদের সম্পর্কে জানুন</h1>
                         <div className='row'>
                             <div className='col-md-12 about-img'>
-                                <img src={about} alt="" />
+                                <img src='https://i.ibb.co/Vpj0smv/about-final.png' alt="" />
                             </div>
                         </div>
                     </div>
@@ -161,7 +133,7 @@ const Home = () => {
                         <h1 className='text-white text-center fw-bold question-title my-5'>আমাদের সম্পর্কিত সাধারণ জিজ্ঞাসা</h1>
                         <div className='row d-flex justify-content-between align-items-center'>
                             <div className='col-md-5'>
-                                <img width='100%' src={question}/>
+                                <img width='100%' src='https://i.ibb.co/MV5s223/question.png'/>
                             </div>
                             <div className='col-md-6 my-5'>
                                 <Accordion>
@@ -231,22 +203,22 @@ const Home = () => {
                         <h1 className='text-white text-center fw-bold question-title py-5'>We are Associate with</h1>
                         <div className='pertner-row'>
                             <div className='brand-pertner'>
-                                <img src={partner1}/>
+                                <img src='https://i.ibb.co/MgWt1Lt/bteb.png'/>
                             </div>
                             <div className='brand-pertner'>
-                                <img src={partner2}/>
+                                <img src='https://i.ibb.co/xSzm6mx/basis.png'/>
                             </div>
                             <div className='brand-pertner'>
-                                <img src={partner3}/>
+                                <img src='https://i.ibb.co/9nzJJqc/bmet.png'/>
                             </div>
                             <div className='brand-pertner'>
-                                <img src={partner4}/>
+                                <img src='https://i.ibb.co/8g9swcJ/canada-tm.png'/>
                             </div>
                             <div className='brand-pertner'>
-                                <img src={partner5}/>
+                                <img src='https://i.ibb.co/FKHFc7Y/ict-devision.png'/>
                             </div>
                             <div className='brand-pertner'>
-                                <img src={partner6}/>
+                                <img src='https://i.ibb.co/xm2Hfgs/world-bank.png'/>
                             </div>
                         </div>
                     </div>
@@ -260,7 +232,7 @@ const Home = () => {
 
                             </div>
                             <div className='col-md-4 ceo-img'>
-                                <img className='rounded' src={ceo}/>
+                                <img className='rounded' src='https://i.ibb.co/rfYL8jP/ceo.jpg'/>
                             </div>
                             <div className='col-md-4 ceo-desc text-white'>
                                 <p className='text-align-justify'>As one of the leading IT solution providers of Bangladesh, 

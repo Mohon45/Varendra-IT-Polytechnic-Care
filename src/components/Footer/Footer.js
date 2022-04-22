@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container} from 'react-bootstrap';
 import './Footer.css';
-import logo from '../../Images/logo-big.png';
 
 const Footer = () => {
     return (
@@ -11,7 +10,7 @@ const Footer = () => {
                 <div className='row'>
                     <div className='col-md-3 mt-3'>
                         <div className='footer-1st-section'>
-                            <img src={logo} alt="" />
+                            <img src='https://i.ibb.co/n7Nh2xz/logo-big.png' alt="" />
                             <h5 className='footer-motivate-speach'>CHANGE | GROW | SUCCEED</h5>
                             <div className='d-flex my-4'>
                                 <div className='footer-icon'><a href="https://www.facebook.com/VarendraITBD" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a></div>
