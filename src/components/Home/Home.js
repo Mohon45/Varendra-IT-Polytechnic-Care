@@ -11,7 +11,7 @@ const Home = () => {
             <div  className="home-header">
                 <Container>
                     {/* sort bio start */}
-                    <div className="row">
+                    <div className="row mt-3">
                         <div className="col-md-3 col-sm-12 single-card-course">
                             <div className="card card-style mb-2">
                                 <div className='sort-bio'>
@@ -27,11 +27,21 @@ const Home = () => {
                                 <div className='sort-bio'>
                                     <div className="card-body single-card">
                                         <img className='my-3' src='https://i.ibb.co/vJsT4YW/bio-2.png' alt='e' />
-                                        <h5 className="card-title">2000+ TRAINED STUDENTS</h5>
+                                        <h5 className="card-title">2000+ TRAIN STUDENTS</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        {/* <div className="col-md-3 col-sm-12 single-card-course">
+                            <div className="card card-style mb-2">
+                                <div className='sort-bio'>
+                                    <div className="card-body single-card">
+                                        <img className='my-3' src='https://i.ibb.co/vJsT4YW/bio-2.png' alt='e' />
+                                        <h5 className="card-title">2000+ TRAINED STUDENTS</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> */}
                         <div className="col-md-3 col-sm-12 single-card-course">
                             <div className="card card-style mb-2">
                                 <div className='sort-bio'>
@@ -42,7 +52,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-12">
+                        <div className="col-md-3 col-sm-12 single-card-course">
                             <div className="card card-style mb-2">
                                 <div className='sort-bio'>
                                     <div className="card-body single-card">
