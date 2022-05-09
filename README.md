@@ -1,6 +1,6 @@
 # Varendra IT & Polytechnic Care
 
-Website Link[https://revew-education-website.netlify.app/contact](https://revew-education-website.netlify.app/contact).
+Website Link[https://www.varendrait.com/](https://www.varendrait.com/).
 
 ## Website Description
 
