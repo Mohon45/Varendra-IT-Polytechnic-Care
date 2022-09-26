@@ -1,14 +1,15 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './components/Home/Home';
-import About from './components/About/About';
-import Header from './components/Header/Header';
-import NotFound from './components/NotFound/NotFound';
-import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
-import Courses from './components/Courses/Courses';
-import PhotoGallary from './components/PhotoGallary/PhotoGallary';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Header from "./components/Header/Header";
+import NotFound from "./components/NotFound/NotFound";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import Courses from "./components/Courses/Courses";
+import PhotoGallary from "./components/PhotoGallary/PhotoGallary";
+import Result from "./components/Result/Result";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/courses">
             <Courses></Courses>
+          </Route>
+          <Route path="/result">
+            <Result />
           </Route>
           <Route path="/photo">
             <PhotoGallary></PhotoGallary>

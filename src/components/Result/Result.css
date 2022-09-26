@@ -1,0 +1,17 @@
+.result {
+  background-color: #0f132be7;
+  color: white;
+}
+.result h1 {
+  margin: 0;
+}
+.table {
+  margin: 0;
+}
+.download-btn-link {
+  text-decoration: none;
+  color: white;
+}
+.download-btn-link:hover {
+  color: white;
+}
