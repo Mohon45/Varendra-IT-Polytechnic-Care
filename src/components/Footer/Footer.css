@@ -39,6 +39,7 @@
 }
 .quick-link {
   list-style: none;
+  line-height: 2;
 }
 .quick-link li a {
   text-decoration: none;

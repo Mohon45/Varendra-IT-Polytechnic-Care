@@ -1,50 +1,51 @@
-
-.sort-bio{
+.sort-bio {
   text-decoration: none;
-  color: #EEEE;
+  color: #eeee;
   border-bottom: 2px solid #0f132be7;
   border-radius: 5px;
 }
-.sort-bio:hover{
+.sort-bio:hover {
   color: #0f132be7;
-  border-bottom: 2px solid #F14B36;
+  border-bottom: 2px solid #f14b36;
 }
-.card-style{
+.card-style {
   background-image: linear-gradient(to right, #533e85, #488fb1);
   border: none;
+  width: 300px;
 }
-.single-card{
+.single-card {
   text-align: center;
 }
-.single-card img{
+.single-card img {
   width: 80px;
   height: 80px;
 }
-.single-according-item{
+.single-according-item {
   background-image: linear-gradient(to right, #533e85, #488fb1);
 }
-.pertner-row{
+.pertner-row {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
 }
 @media only screen and (max-width: 600px) {
-  .pertner-row{
-    grid-template-columns: repeat(2, 1fr)
+  .pertner-row {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-.ceo-img img{
- width: 90%;
+.ceo-img img {
+  width: 90%;
+  height: 400px;
 }
-.ceo-desc{
+.ceo-desc {
   padding: 20px;
 }
-.ceo-desc p{
+.ceo-desc p {
   text-align: justify;
 }
 
-.hover-effect:hover{
+.hover-effect:hover {
   text-shadow: none !important;
   box-sizing: border-box !important;
   cursor: pointer !important;
@@ -55,26 +56,30 @@
   z-index: 2;
 }
 
-.btn-design{
+.btn-design {
   background-image: linear-gradient(to right, #533e85, #488fb1);
   font-size: 1.3rem;
+  color: #eee;
+}
+.btn-design:hover {
+  color: #eee;
 }
 
-.more-course{
+.more-course {
   background-image: linear-gradient(to right, #533e85, #488fb1);
   margin: auto;
-  padding: 10px;
+  padding: 6px;
   border-radius: 10px;
 }
-.more-course p{
-  font-size: 2rem;
+.more-course p {
+  font-size: 1rem;
   font-weight: bold;
 }
-.more-top div a{
+.more-top div a {
   text-decoration: none;
 }
 
-.brand-pertner img{
+.brand-pertner img {
   width: 150px;
   height: 100px;
   color: white;
@@ -82,4 +87,31 @@
 
 .about-img img {
   width: 100%;
+}
+
+/* card design */
+.card-custom {
+  background-color: transparent;
+  border: 2px solid #475889;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card-custom img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card-link-custom {
+  text-decoration: none;
+}
+.color-custom {
+  color: #ffae4f;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-fee-custom h5 {
+    font-size: 1rem;
+  }
+  .btn-design {
+    font-size: 1rem !important;
+  }
 }

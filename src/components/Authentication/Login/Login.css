@@ -1,0 +1,15 @@
+.auth-card-custom {
+  background-color: transparent;
+  border: 2px solid #49739e;
+  width: 600px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .auth-card-custom {
+    background-color: transparent;
+    border: 2px solid #49739e;
+    width: 90%;
+    margin: auto;
+  }
+}
