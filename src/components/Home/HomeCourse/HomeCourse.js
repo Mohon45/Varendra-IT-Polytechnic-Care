@@ -14,7 +14,7 @@ const HomeCourse = () => {
             <div className="row">
               <div className="col-md-4 pb-4 ">
                 <Link
-                  to="/courses"
+                  to="/course/details/1"
                   className="card-link-custom"
                   alt="office-application"
                 >
@@ -49,7 +49,7 @@ const HomeCourse = () => {
               </div>
               <div className="col-md-4 pb-4 ">
                 <Link
-                  to="/courses"
+                  to="/course/details/1"
                   className="card-link-custom"
                   alt="office-application"
                 >
@@ -84,7 +84,7 @@ const HomeCourse = () => {
               </div>
               <div className="col-md-4 pb-4 ">
                 <Link
-                  to="/courses"
+                  to="/course/details/1"
                   className="card-link-custom"
                   alt="office-application"
                 >

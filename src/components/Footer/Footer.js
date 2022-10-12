@@ -33,7 +33,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-icon">
                   <a
-                    href="https://www.youtube.com/channel/UCgmd3tdfNpP9X5u7Oro7DoQ"
+                    href="https://www.linkedin.com/company/varendra-it/"
                     target="blank"
                   >
                     <i className="fab fa-linkedin fa-2x"></i>
@@ -41,7 +41,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-icon">
                   <a
-                    href="https://www.youtube.com/channel/UCgmd3tdfNpP9X5u7Oro7DoQ"
+                    href="https://www.instagram.com/varendrait/?igshid=YmMyMTA2M2Y%3D"
                     target="blank"
                   >
                     <i className="fab fa-instagram-square fa-2x"></i>

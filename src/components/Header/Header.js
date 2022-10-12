@@ -44,7 +44,7 @@ const Header = () => {
                     className="nav-link-only nav-item"
                     style={{ color: "white" }}
                     as={HashLink}
-                    to="/courses/create"
+                    to="/course/create"
                   >
                     কোর্স যোগ
                   </Nav.Link>
