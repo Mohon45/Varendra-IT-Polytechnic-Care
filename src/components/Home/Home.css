@@ -47,6 +47,7 @@
 
 .hover-effect:hover {
   text-shadow: none !important;
+  box-shadow: #475889 0px 5px 15px;
   box-sizing: border-box !important;
   cursor: pointer !important;
   transition: all 0.3s ease !important;

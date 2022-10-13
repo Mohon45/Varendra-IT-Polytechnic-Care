@@ -13,3 +13,34 @@
   background-color: transparent;
   border: 3px solid #475889;
 }
+
+/* Course details */
+.details-left-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+.course-details-small-duration-card {
+  width: 140px;
+  height: 115px;
+  text-align: center;
+  border: 3px solid #475889;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: #475889 0px 5px 15px;
+}
+.instructor-name {
+  font-size: 1.3rem;
+}
+.enroll-confirm-btn {
+  text-decoration: none;
+  color: #eee;
+}
+.enroll-confirm-btn:hover {
+  color: #eee;
+}
+.course-description {
+  text-align: justify;
+}
+.curiculam-icon-customize {
+  color: rgba(156, 154, 154, 0.745);
+}

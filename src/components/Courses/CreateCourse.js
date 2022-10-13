@@ -17,6 +17,10 @@ const CreateCourse = () => {
                     <Form.Label>কোর্সের নাম</Form.Label>
                     <Form.Control type="text" placeholder="কোর্সের নাম" />
                   </Form.Group>
+                  <Form.Group className="mb-3" controlId="formBasictitle">
+                    <Form.Label>কোর্সের ছবি</Form.Label>
+                    <Form.Control type="text" placeholder="কোর্সের ছবির লিংক" />
+                  </Form.Group>
 
                   <Form.Group className="mb-3" controlId="formBasicDescription">
                     <Form.Label>কোর্সের বর্ণনা</Form.Label>
@@ -33,6 +37,32 @@ const CreateCourse = () => {
                     <Form.Label>কোর্সের সময়কাল</Form.Label>
                     <Form.Control type="text" placeholder="কোর্স কত দিন চলবে" />
                   </Form.Group>
+                  <Form.Group className="mb-3" controlId="formBasicDescription">
+                    <Form.Label>ক্লাস সংখ্যা</Form.Label>
+                    <Form.Control type="text" placeholder="ক্লাস সংখ্যা" />
+                  </Form.Group>
+                  <Form.Group className="mb-3" controlId="formBasicDescription">
+                    <Form.Label>প্রজেক্ট সংখ্যা</Form.Label>
+                    <Form.Control
+                      type="text"
+                      placeholder="আনুমানিক কয়টা প্রজেক্ট করানো হবে"
+                    />
+                  </Form.Group>
+                  <Form.Group className="mb-3" controlId="formBasicDescription">
+                    <Form.Label>ইন্সট্রাক্টরের নাম</Form.Label>
+                    <Form.Control
+                      type="text"
+                      placeholder="ইন্সট্রাক্টরের নাম"
+                    />
+                  </Form.Group>
+                  <Form.Group className="mb-3" controlId="formBasicDescription">
+                    <Form.Label>কোর্স কারিকুলাম</Form.Label>
+                    <Form.Control
+                      type="text"
+                      placeholder="কোর্সে কি কি শিখানো হবে?"
+                    />
+                  </Form.Group>
+
                   <Button variant="primary" type="submit">
                     Add Course
                   </Button>

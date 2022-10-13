@@ -15,6 +15,7 @@ import Notify from "./Const/Notify/Notify";
 import CreateCourse from "./components/Courses/CreateCourse";
 import AddResult from "./components/Result/AddResult";
 import CourseDetails from "./components/Courses/CourseDetails";
+import Confirm from "./components/Courses/Confirm";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/course/details/:id" element={<CourseDetails />} />
+        <Route path="/course/confirm" element={<Confirm />} />
         <Route path="/course/create" element={<CreateCourse />} />
         <Route path="/result" element={<Result />} />
         <Route path="/result/add" element={<AddResult />} />

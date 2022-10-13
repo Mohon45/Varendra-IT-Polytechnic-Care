@@ -37,7 +37,7 @@ const HomeCourse = () => {
                           <i className="fas fa-star-half-alt color-custom"></i>
                           <span>(4.5)</span>
                         </div>
-                        <p>Deration: 6 Month</p>
+                        <p>কোর্সের মেয়াদঃ ৬ মাস</p>
                       </div>
                       <div className="card-fee-custom d-flex justify-content-between align-items-center mt-3">
                         <h5>কোর্স ফিঃ ২০০০ ৳</h5>
@@ -72,7 +72,7 @@ const HomeCourse = () => {
                           <i className="fas fa-star-half-alt color-custom"></i>
                           <span>(4.5)</span>
                         </div>
-                        <p>Deration: 6 Month</p>
+                        <p>কোর্সের মেয়াদঃ ৬ মাস</p>
                       </div>
                       <div className=" card-fee-custom d-flex justify-content-between align-items-center mt-3">
                         <h5>কোর্স ফিঃ ২০০০ ৳</h5>
@@ -107,7 +107,7 @@ const HomeCourse = () => {
                           <i className="fas fa-star-half-alt color-custom"></i>
                           <span>(4.5)</span>
                         </div>
-                        <p>Deration: 6 Month</p>
+                        <p>কোর্সের মেয়াদঃ ৬ মাস</p>
                       </div>
                       <div className="card-fee-custom d-flex justify-content-between align-items-center mt-3">
                         <h5>কোর্স ফিঃ ২০০০ ৳</h5>
