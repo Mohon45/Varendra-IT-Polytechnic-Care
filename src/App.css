@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Hind Siliguri", sans-serif;
+}
 .bg-color {
   background-color: #0f132be7;
-  font-family: "Poppins", sans-serif;
 }
