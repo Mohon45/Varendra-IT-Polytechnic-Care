@@ -39,6 +39,14 @@ const Header = () => {
                 >
                   কোর্সসমূহ
                 </Nav.Link>
+                <Nav.Link
+                  className="nav-link-only nav-item"
+                  style={{ color: "white" }}
+                  as={HashLink}
+                  to="/scdp"
+                >
+                  এসসিডিপি
+                </Nav.Link>
                 {user?.role === "admin" ? (
                   <Nav.Link
                     className="nav-link-only nav-item"

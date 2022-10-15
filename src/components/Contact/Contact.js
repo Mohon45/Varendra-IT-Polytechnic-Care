@@ -1,54 +1,55 @@
 import React from "react";
-import { Button, Container, FloatingLabel, Form } from "react-bootstrap";
+import { Container } from "react-bootstrap";
+import GoogleMapReact from "google-map-react";
+
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 const Contact = () => {
+  const defaultProps = {
+    center: {
+      lat: 24.37914369879049,
+      lng: 88.60630810260774,
+    },
+    zoom: 14,
+  };
+
   return (
     <div className="bg-color">
       <Container className="text-white">
-        <div className="row py-5">
-          <div className="col-md-6">
-            <h1>Get In Touch</h1>
-            <p>Fill All Section</p>
-            <Form>
-              <Form.Group className="mb-3" controlId="formGroupEmail">
-                <Form.Control type="email" placeholder="Enter your email" />
-              </Form.Group>
-
-              <Form.Control type="text" placeholder="Address" />
-              <br />
-
-              <FloatingLabel controlId="floatingTextarea2" label="Comments">
-                <Form.Control
-                  placeholder="Leave a comment here"
-                  style={{ height: "200px" }}
-                />
-              </FloatingLabel>
-            </Form>
-            <Button
-              className="mt-2 px-4 fs-2 rounded fw-bold"
-              style={{
-                color: "White",
-                backgroundColor: "#0BC560",
-                border: "none",
-              }}
-            >
-              Submit
-            </Button>
-          </div>
-          <div className="col-md-6">
-            <h1>Contact Info</h1>
-            <p style={{ width: "500px" }}>
-              We denounce with righteous indignation in and dislike men who are
-              so beguiled and to demo realized by the charms of pleasure moment,
-              so blinded by desire, that they cannot foresee the pain and
-              trouble that are bound.
-            </p>
-            <ul>
-              <li>In front of RPI Gate, Sopura, Rajshahi</li>
-              <li>+8801797336604</li>
-              <li>+8801719132276</li>
-              <li>varendraitltd@gmail.com</li>
-            </ul>
+        <div className="py-4">
+          <p style={{ fontSize: "1.3rem", textAlign: "justify" }}>
+            যে কোনো প্রয়োজনে যোগাযোগ করতে সরাসরি আমাদের অফিস ভিজিট করতে পারেন।
+            তাছাড়া ০১৭৯৭৩৩৬৬০৪ নম্বরে কল করে জেনে নিতে পারেন ট্রেইনিং সংক্রান্ত
+            যেকোনো তথ্য। এছাড়াও উল্লেখিত মেইলে কিংবা ফেসবুক ম্যাসেঞ্জারেও নক
+            দিতে পারেন।
+          </p>
+          <div className="row py-3">
+            <div className="col-md-6">
+              <div style={{ height: "15rem", width: "100%" }}>
+                <GoogleMapReact
+                  bootstrapURLKeys={{ key: "" }}
+                  defaultCenter={defaultProps.center}
+                  defaultZoom={defaultProps.zoom}
+                >
+                  <AnyReactComponent
+                    lat={59.955413}
+                    lng={30.337844}
+                    text="My Marker"
+                  />
+                </GoogleMapReact>
+              </div>
+            </div>
+            <div className="col-md-6 ">
+              <div className="my-4">
+                <h3 className="fw-bold">হেড অফিস</h3>
+                <p>বিউটি প্লাজা ২য় ও ৪র্থ তলা সপুরা, বোয়ালিয়া, রাজশাহী</p>
+              </div>
+              <div style={{ lineHeight: "10px" }}>
+                <h3 className="fw-bold">অফিস ভিজিটের সময়</h3>
+                <p className="mt-3">শনিবার - বৃহস্পতিবার</p>
+                <p>সকাল ৯ টা থেকে রাত ৮ টা</p>
+              </div>
+            </div>
           </div>
         </div>
       </Container>
