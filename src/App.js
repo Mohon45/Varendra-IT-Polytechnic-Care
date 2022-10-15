@@ -16,6 +16,8 @@ import CreateCourse from "./components/Courses/CreateCourse";
 import AddResult from "./components/Result/AddResult";
 import CourseDetails from "./components/Courses/CourseDetails";
 import Confirm from "./components/Courses/Confirm";
+import UpdateCourse from "./components/Courses/UpdateCourse";
+import Edit from "./components/Courses/Edit";
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
         <Route path="/course/details/:id" element={<CourseDetails />} />
         <Route path="/course/confirm" element={<Confirm />} />
         <Route path="/course/create" element={<CreateCourse />} />
+        <Route path="/course/edit/:id" element={<Edit />} />
+        <Route path="/course/update" element={<UpdateCourse />} />
         <Route path="/result" element={<Result />} />
         <Route path="/result/add" element={<AddResult />} />
         <Route path="/photo" element={<PhotoGallary />} />
