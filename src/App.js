@@ -18,7 +18,6 @@ import CourseDetails from "./components/Courses/CourseDetails";
 import Confirm from "./components/Courses/Confirm";
 import UpdateCourse from "./components/Courses/UpdateCourse";
 import Edit from "./components/Courses/Edit";
-import Scdp from "./components/Scdp/Scdp";
 
 function App() {
   return (
@@ -35,7 +34,6 @@ function App() {
         <Route path="/course/create" element={<CreateCourse />} />
         <Route path="/course/edit/:id" element={<Edit />} />
         <Route path="/course/update" element={<UpdateCourse />} />
-        <Route path="/scdp" element={<Scdp />} />
         <Route path="/result" element={<Result />} />
         <Route path="/result/add" element={<AddResult />} />
         <Route path="/photo" element={<PhotoGallary />} />

@@ -1,4 +1,14 @@
-.single-gallary-img img{
-    width: 100%;
-    height: 250px;
+.single-gallary-img img {
+  width: 100%;
+  height: 250px;
+}
+.photo-gallary-card {
+  background-color: #4582a4;
+}
+.gallary-link-custom {
+  text-decoration: none;
+  color: #eee;
+}
+.gallary-link-custom:hover {
+  color: #eee;
 }
