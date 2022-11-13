@@ -15,7 +15,7 @@ const PhotoGallary = () => {
                 </h3>
                 <Link
                   className="gallary-link-custom d-flex justify-content-center mb-5 pb-5"
-                  to="/"
+                  to="photos"
                 >
                   <button className="btn btn-info">View Photo</button>
                 </Link>
@@ -30,7 +30,7 @@ const PhotoGallary = () => {
                 </h3>
                 <Link
                   className="gallary-link-custom d-flex justify-content-center mb-5 pb-5"
-                  to="/"
+                  to="/photos"
                 >
                   <button className="btn btn-info">View Photo</button>
                 </Link>
@@ -45,7 +45,7 @@ const PhotoGallary = () => {
                 </h3>
                 <Link
                   className="gallary-link-custom d-flex justify-content-center mb-5 pb-5"
-                  to="/"
+                  to="/photos"
                 >
                   <button className="btn btn-info">View Photo</button>
                 </Link>
@@ -60,7 +60,7 @@ const PhotoGallary = () => {
                 </h3>
                 <Link
                   className="gallary-link-custom d-flex justify-content-center mb-5 pb-5"
-                  to="/"
+                  to="/photos"
                 >
                   <button className="btn btn-info">View Photo</button>
                 </Link>
@@ -75,7 +75,7 @@ const PhotoGallary = () => {
                 </h3>
                 <Link
                   className="gallary-link-custom d-flex justify-content-center mb-5 pb-5"
-                  to="/"
+                  to="/photos"
                 >
                   <button className="btn btn-info">View Photo</button>
                 </Link>
@@ -90,7 +90,7 @@ const PhotoGallary = () => {
                 </h3>
                 <Link
                   className="gallary-link-custom d-flex justify-content-center mb-5 pb-5"
-                  to="/"
+                  to="/photos"
                 >
                   <button className="btn btn-info">View Photo</button>
                 </Link>

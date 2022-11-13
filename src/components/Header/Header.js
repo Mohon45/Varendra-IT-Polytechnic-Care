@@ -73,7 +73,7 @@ const Header = () => {
                   className="nav-link-only nav-item"
                   style={{ color: "white" }}
                   as={HashLink}
-                  to="/photo"
+                  to="/photo-gallary"
                 >
                   ফটো গ্যালারি
                 </Nav.Link>

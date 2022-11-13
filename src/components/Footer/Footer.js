@@ -69,8 +69,8 @@ const Footer = () => {
                   <i className="fas fa-phone-square-alt contact-icon fa-2x"></i>
                 </div>
                 <div className="ft-text ms-4">
-                  <p className="m-0 pb-1">০১৭৯৭৩৩৬৬০৪ (অফিস)</p>
-                  <p>০১৭১৯১৩২২৭৬ (সিইও)</p>
+                  <p className="m-0 pb-1">০১৭৯৭৩৩৬৬০৪ (হেড অফিস)</p>
+                  <p>০১৭১৮৮২০৭৪৪ (নওহাটা ব্রাঞ্চ)</p>
                 </div>
               </div>
               <div className="d-flex align-items-center">

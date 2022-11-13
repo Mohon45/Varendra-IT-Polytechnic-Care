@@ -24,7 +24,7 @@ const Contact = () => {
             দিতে পারেন।
           </p>
           <div className="row py-3">
-            <div className="col-md-6">
+            <div className="col-md-6 mt-5">
               <div style={{ height: "15rem", width: "100%" }}>
                 <GoogleMapReact
                   bootstrapURLKeys={{ key: "" }}
@@ -43,11 +43,16 @@ const Contact = () => {
               <div className="my-4">
                 <h3 className="fw-bold">হেড অফিস</h3>
                 <p>বিউটি প্লাজা ২য় ও ৪র্থ তলা সপুরা, বোয়ালিয়া, রাজশাহী</p>
+                <p>মোবাইল নং ঃ 01797336604</p>
+              </div>
+              <div className="my-4">
+                <h3 className="fw-bold">নওহাটা ব্রাঞ্চ</h3>
+                <p>মোবাইল নং ঃ 01718820744</p>
               </div>
               <div style={{ lineHeight: "10px" }}>
                 <h3 className="fw-bold">অফিস ভিজিটের সময়</h3>
                 <p className="mt-3">শনিবার - বৃহস্পতিবার</p>
-                <p>সকাল ৯ টা থেকে রাত ৮ টা</p>
+                <p>সকাল ৮ টা থেকে রাত ৭ টা</p>
               </div>
             </div>
           </div>

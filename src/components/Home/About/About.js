@@ -11,7 +11,7 @@ const About = () => {
         </h1>
         <div className="row">
           <div className="col-md-6">
-            <img className="w-100 rounded-3" src={aboutImage} alt="image" />
+            <img className="w-100 rounded-3" src={aboutImage} alt="" />
           </div>
           <div className="col-md-6">
             <p className="text-white" style={{ textAlign: "justify" }}>

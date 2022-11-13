@@ -18,6 +18,7 @@ import CourseDetails from "./components/Courses/CourseDetails";
 import Confirm from "./components/Courses/Confirm";
 import UpdateCourse from "./components/Courses/UpdateCourse";
 import Edit from "./components/Courses/Edit";
+import Photo from "./components/PhotoGallary/Photo";
 
 function App() {
   return (
@@ -36,7 +37,8 @@ function App() {
         <Route path="/course/update" element={<UpdateCourse />} />
         <Route path="/result" element={<Result />} />
         <Route path="/result/add" element={<AddResult />} />
-        <Route path="/photo" element={<PhotoGallary />} />
+        <Route path="/photo-gallary" element={<PhotoGallary />} />
+        <Route path="/photo-gallary/photos" element={<Photo />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
