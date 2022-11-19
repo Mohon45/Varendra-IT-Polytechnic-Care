@@ -7,6 +7,13 @@
   width: 300px;
   margin: auto;
 }
+.card-img-top {
+  height: 232px;
+}
+.tk-symbol {
+  font-size: 4rem !important;
+  font-weight: bold;
+}
 
 /* add course design */
 .course-add-card {

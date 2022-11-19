@@ -16,7 +16,7 @@ const Register = () => {
     setLoading(true);
 
     axios
-      .post("http://localhost:5000/api/v1/vit/signup", data, {
+      .post("https://varendra-it.onrender.com/api/v1/vit/signup", data, {
         headers: { "Content-Type": "application/json" },
       })
       .then((res) => {

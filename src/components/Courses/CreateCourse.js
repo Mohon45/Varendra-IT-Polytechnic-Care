@@ -25,7 +25,7 @@ const CreateCourse = () => {
     };
     setLoading(true);
     axios
-      .post("http://localhost:5000/api/v1/vit/course", newData, {
+      .post("https://varendra-it.onrender.com/api/v1/vit/course", newData, {
         headers: { "Content-Type": "multipart/form-data" },
       })
       .then((res) => {

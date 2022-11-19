@@ -16,7 +16,7 @@ const Login = () => {
   const onSubmitHandler = (data) => {
     setLoading(true);
     axios
-      .post("http://localhost:5000/api/v1/vit/login", data, {
+      .post("https://varendra-it.onrender.com/api/v1/vit/login", data, {
         headers: {
           "Content-Type": "application/json",
         },

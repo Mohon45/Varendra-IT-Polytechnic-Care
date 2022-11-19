@@ -16,7 +16,7 @@ const UpdateCourse = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get("http://localhost:5000/api/v1/vit/all-course", {
+      .get("https://varendra-it.onrender.com/api/v1/vit/all-course", {
         headers: { "Content-Type": "application/json" },
       })
       .then((res) => {
@@ -37,9 +37,12 @@ const UpdateCourse = () => {
   const onDeleteSubmit = () => {
     setLoading(true);
     axios
-      .post(`http://localhost:5000/api/v1/vit/course/delete/${selectedId}`, {
-        headers: { "Content-Type": "application/json" },
-      })
+      .post(
+        `https://varendra-it.onrender.com/api/v1/vit/course/delete/${selectedId}`,
+        {
+          headers: { "Content-Type": "application/json" },
+        }
+      )
       .then((res) => {
         if (res.status === 200) {
           const updateRows = [...rows];
