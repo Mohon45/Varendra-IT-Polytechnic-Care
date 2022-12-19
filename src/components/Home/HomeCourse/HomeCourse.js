@@ -56,7 +56,7 @@ const HomeCourse = () => {
                           <p>কোর্সের মেয়াদঃ {item.courseDuration} মাস</p>
                         </div>
                         <div className="card-fee-custom d-flex justify-content-between align-items-center mt-3">
-                          <h5>কোর্স ফিঃ {item.price} ৳</h5>
+                          <h5>কোর্স ফিঃ {item.price}৳</h5>
                           <p className="btn btn-design px-3">এনরোল করুন</p>
                         </div>
                       </div>

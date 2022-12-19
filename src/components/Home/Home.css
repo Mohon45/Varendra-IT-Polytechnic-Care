@@ -95,6 +95,7 @@
 .card-custom {
   background-color: transparent;
   border: 2px solid #475889;
+  height: 440px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
