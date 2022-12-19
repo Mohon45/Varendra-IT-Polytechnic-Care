@@ -11,10 +11,11 @@
 .card-style {
   background-image: linear-gradient(to right, #533e85, #488fb1);
   border: none;
-  width: 300px;
+  /* width: 300px; */
 }
 .single-card {
   text-align: center;
+  padding: 0;
 }
 .single-card img {
   width: 80px;

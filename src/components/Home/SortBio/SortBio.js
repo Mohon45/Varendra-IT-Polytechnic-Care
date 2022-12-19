@@ -4,7 +4,7 @@ const SortBio = () => {
   return (
     <div>
       <div className="row mt-3">
-        <div className="col-md-3 col-sm-12 single-card-course">
+        <div className="col-lg-3 col-md-3 col-sm-12">
           <div className="card card-style mb-2">
             <div className="sort-bio">
               <div className="card-body single-card">
@@ -18,7 +18,7 @@ const SortBio = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-3 col-sm-12 single-card-course">
+        <div className="col-lg-3 col-md-3 col-sm-12">
           <div className="card card-style mb-2">
             <div className="sort-bio">
               <div className="card-body single-card">
@@ -34,7 +34,7 @@ const SortBio = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-3 col-sm-12 single-card-course">
+        <div className="col-lg-3 col-md-3 col-sm-12">
           <div className="card card-style mb-2">
             <div className="sort-bio">
               <div className="card-body single-card">
@@ -48,7 +48,7 @@ const SortBio = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-3 col-sm-12 single-card-course">
+        <div className="col-lg-3 col-md-3 col-sm-12">
           <div className="card card-style mb-2">
             <div className="sort-bio">
               <div className="card-body single-card">
