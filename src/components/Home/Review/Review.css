@@ -1,0 +1,71 @@
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  transition: ease-in-out 0.3s;
+}
+.icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+.icon-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+  color: #fff;
+}
+.icon-box:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+.skill-img-custom {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+/* tastimonial */
+.testimonial-item p {
+  /* height: 175px; */
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px 20px 6rem 20px;
+  border-radius: 10px;
+  text-align: justify;
+  font-style: italic;
+}
+.testimonial-item p .right-quote {
+  transform: rotate(180 deg);
+}
+.testimonial-item img {
+  width: 100px !important;
+  border-radius: 50%;
+  margin: -60px 0 0 40px;
+  position: relative;
+  z-index: 2;
+  border: 6px solid rgba(255, 255, 255, 0.12);
+}
+.testimonial-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 45px;
+  color: #fff;
+}
+.testimonial-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 0 45px;
+}
+.quote {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 26px;
+}
+
+@media only screen and (max-width: 600px) {
+  .testimonial-item {
+    margin-bottom: 50px;
+  }
+}

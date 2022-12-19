@@ -19,6 +19,7 @@ import Confirm from "./components/Courses/Confirm";
 import UpdateCourse from "./components/Courses/UpdateCourse";
 import Edit from "./components/Courses/Edit";
 import Photo from "./components/PhotoGallary/Photo";
+import MessangerChart from "./components/MessangerChart/MessangerChart";
 
 function App() {
   return (
@@ -39,8 +40,10 @@ function App() {
         <Route path="/result/add" element={<AddResult />} />
         <Route path="/photo-gallary" element={<PhotoGallary />} />
         <Route path="/photo-gallary/photos" element={<Photo />} />
+
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <MessangerChart />
       <Footer />
       <Notify />
     </div>
