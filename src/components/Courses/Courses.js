@@ -48,7 +48,9 @@ const Courses = () => {
                         />
                       </div>
                       <div className="card-body">
-                        <h4 className="fw-bold">{item.title}</h4>
+                        <h4 className="fw-bold">
+                          {item.title.slice(0, 25)}...
+                        </h4>
                         <div className="d-flex justify-content-between mt-3">
                           <div>
                             <i className="fas fa-star color-custom"></i>
