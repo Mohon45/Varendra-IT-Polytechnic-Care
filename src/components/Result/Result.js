@@ -19,6 +19,36 @@ const Result = () => {
             </thead>
             <tbody>
               <tr>
+                <th className="text-center">01.05.2023</th>
+                <td className="pt-2">SCDP COA 3rd Batch Result</td>
+                <td className="text-center">
+                  <button className="btn btn-primary">
+                    <a
+                      className="download-btn-link"
+                      href="/SCDP COA 3rd batch result.pdf"
+                      download
+                    >
+                      Download
+                    </a>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <th className="text-center">01.05.2023</th>
+                <td className="pt-2">SCDP Graphics 3rd Batch Result</td>
+                <td className="text-center">
+                  <button className="btn btn-primary">
+                    <a
+                      className="download-btn-link"
+                      href="/SCDP GD 3rd Batch.pdf"
+                      download
+                    >
+                      Download
+                    </a>
+                  </button>
+                </td>
+              </tr>
+              <tr>
                 <th className="text-center">26.09.2022</th>
                 <td className="pt-2">
                   SCDP JAN-JUN 2022 all Batch Result Sheet
